@@ -68,6 +68,9 @@ Each burst takes one **round-trip time** (RTT).
 - **"How long to send X KB?"** Keep a **running total**. The burst that takes the total past X is sent after (n − 1) RTTs.
   *MSS 4, threshold 50, window 80, RTT 15 ms, 400 KB:* the totals are 4, 12, 28, 60, 110, 164, 222, 284, 350, **420**. Burst 10 passes 400, so 9 × 15 = **135 ms**.
 
+- **"How many transmissions to send X KB?"** Count the bursts until the running total reaches X.
+  *MSS 3, threshold 81, window 102 (Test 2), 345 KB:* sends 3, 6, 12, 24, 48, 81, 84, 87 → totals 3, 9, 21, 45, 93, 174, 258, **345**, so **8 transmissions**.
+
 ## 5. Throughput with a fixed window
 
 ```

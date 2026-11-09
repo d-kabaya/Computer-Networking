@@ -1,6 +1,6 @@
 # Lesson 8: Exam Revision
 
-[← Subnetting](07-subnetting.md) · [Index](../README.md)
+[← Subnetting](07-subnetting.md) · [Index](../README.md) · [Next: Physical layer and bit errors →](09-physical-layer-bit-errors.md)
 
 A printable two-page version of this is in [`resources/Networking_Cheat_Sheet.pdf`](../resources/Networking_Cheat_Sheet.pdf).
 
@@ -44,6 +44,16 @@ A printable two-page version of this is in [`resources/Networking_Cheat_Sheet.pd
 | Block | 256 − mask octet |
 | Subnet | copy · start · 0s |
 | Broadcast | copy · next start − 1 · 255s |
+
+### Data link errors
+| What | Formula |
+|---|---|
+| Frame error | p = 1 − (1 − p_b)^L ≈ L × p_b (only if p ≪ 1) |
+| Over k hops | P(good) = (1 − p_b)^(L × k) |
+| Largest frame | L < ln(1 − p) ÷ ln(1 − p_b) |
+| Detect / correct | ≤ D − 1 errors / < D/2 errors |
+| CRC | G has n + 1 bits → n-bit CRC · append n zeros, XOR-divide, remainder = CRC |
+| Bit stuffing | a 0 after every five 1s · flag 01111110 at both ends |
 
 ## Top 10 exam traps
 

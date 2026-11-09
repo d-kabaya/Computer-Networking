@@ -20,7 +20,7 @@ IP gets a packet to the right **computer**. But a computer runs many programs at
 ## 2. UDP: User Datagram Protocol
 
 - **Connectionless:** there's **no connection setup**. It just sends.
-- **No** reliability, ordering or flow control.
+- **No** reliability, ordering or flow control, so it **can deliver packets out of order** (Test 2: true).
 - It has an optional **checksum** for error detection.
 - It's fast and simple, so it suits video calls, gaming and DNS lookups.
 

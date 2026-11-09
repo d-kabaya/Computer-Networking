@@ -114,6 +114,10 @@ So circuit switching is about **4×** slower here.
 **When does packet switching win (one packet, no propagation)?** When **setup > k × T_packet**.
 Example: 5 nodes, 1,500 B, 10 Mb/s → T = 1.2 ms, so setup > **6 ms**.
 
+This holds for **any message size**: the message time and the propagation are the same in both, so they cancel. Only k × T_packet vs setup matters.
+**Largest packet** for packet switching to be the same or faster = setup × R ÷ (8k) bytes.
+Example (Test 2): 7 nodes, 84 Mb/s, 30 ms setup → 0.03 × 84,000,000 ÷ 56 = **45,000 B = 45 KB**.
+
 ## 6. Statistical multiplexing
 
 Traffic is **bursty**, so flows rarely all peak at the same time. Instead of reserving for the worst case, packet switching **shares** the link.

@@ -92,6 +92,12 @@ Number of subnets = 2^(subnet bits)
 - Subnet bits = 28 − 16 = 12, so subnets = 2¹² = **4,096**
 - Block 16 → 217 is in 208–223 → broadcast **151.8.201.223**
 
+### Working backwards: the mask for a number of subnets
+
+**Bits to borrow = log₂(subnets needed)**, so the new /n = old /n + borrowed bits.
+
+**Example (Test 2):** 116.143.102.15/13 needs 512 subnets. 512 = 2⁹, so borrow 9 bits: /13 + 9 = /22 = **255.255.252.0**.
+
 ## 6. Host ID when the cut is inside an octet
 
 **Host ID = IP − subnet address**
