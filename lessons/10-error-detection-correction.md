@@ -117,7 +117,7 @@ Each r bit makes **even parity** over its group:
 | **r8** | 8, 9, 10, 11 |
 
 ### Sending
-**Slide example:** data `1001101` → codeword `10011100101` (r1 = 1, r2 = 0, r4 = 1, r8 = 1).
+**Slide example:** data `1001101` → codeword `10011100101` (r1 = 1, r2 = 0, r4 = 0, r8 = 1).
 
 ### Receiving
 Recompute each parity group, **including** its r bit. Read the four results as a binary number **r8 r4 r2 r1**:
