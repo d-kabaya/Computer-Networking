@@ -1,6 +1,6 @@
 # Lesson 11: CRC and Framing
 
-[← Error detection and correction](10-error-detection-correction.md) · [Index](../README.md)
+[← Error detection and correction](10-error-detection-correction.md) · [Index](../README.md) · [Next: Naming, DNS and ARP →](12-naming-dns-arp.md)
 
 *Based on the "Data Link Errors" lecture deck, slides 37–46.*
 

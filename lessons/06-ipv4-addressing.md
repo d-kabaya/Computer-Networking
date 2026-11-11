@@ -67,6 +67,8 @@ That's why there are **2ⁿ − 2** usable hosts: you lose the all-0s and all-1s
 
 ## 6. Names, IPs and MACs
 
+> Covered in full in [Lesson 12: Naming, DNS, ARP and MAC addresses](12-naming-dns-arp.md).
+
 ```mermaid
 flowchart LR
   N[www.site.com] -- DNS --> IP1[IP 1]

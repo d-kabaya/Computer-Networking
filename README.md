@@ -21,6 +21,8 @@ Work through them in order. Each one builds on the last.
 | 9 | [Physical layer and bit errors](lessons/09-physical-layer-bit-errors.md) | Noise, transmission modes, FDM / TDM / statistical multiplexing, frame error probability |
 | 10 | [Error detection and correction](lessons/10-error-detection-correction.md) | Repeating frames, single and 2-D parity, Hamming distance, the Hamming code |
 | 11 | [CRC and framing](lessons/11-crc-and-framing.md) | Cyclic Redundancy Check, generator polynomials, flags, bit stuffing |
+| 12 | [Naming, DNS, ARP and MAC addresses](lessons/12-naming-dns-arp.md) | Host names, DNS hierarchy, ARP cache and queries, proxy ARP, RARP |
+| 13 | [Headers, layers revisited and IPv6](lessons/13-headers-layers-ipv6.md) | Why best effort, TCP header and window example, logical communication, fragmentation, IPv6 |
 
 ## Study tips
 
