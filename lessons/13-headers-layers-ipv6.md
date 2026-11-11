@@ -1,6 +1,6 @@
 # Lesson 13: Headers, Layers Revisited and IPv6
 
-[← Naming, DNS and ARP](12-naming-dns-arp.md) · [Index](../README.md)
+[← Naming, DNS and ARP](12-naming-dns-arp.md) · [Index](../README.md) · [Next: Exam revision quiz 2 →](14-exam-revision-quiz-2.md)
 
 *Based on the "Internet" lecture deck, slides 20, 27, 30 and 65–78.*
 

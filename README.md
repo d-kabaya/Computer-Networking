@@ -23,6 +23,7 @@ Work through them in order. Each one builds on the last.
 | 11 | [CRC and framing](lessons/11-crc-and-framing.md) | Cyclic Redundancy Check, generator polynomials, flags, bit stuffing |
 | 12 | [Naming, DNS, ARP and MAC addresses](lessons/12-naming-dns-arp.md) | Host names, DNS hierarchy, ARP cache and queries, proxy ARP, RARP |
 | 13 | [Headers, layers revisited and IPv6](lessons/13-headers-layers-ipv6.md) | Why best effort, TCP header and window example, logical communication, fragmentation, IPv6 |
+| 14 | [Exam revision quiz 2](lessons/14-exam-revision-quiz-2.md) | 52 mixed exam-style questions from the course tests, plus new variants |
 
 ## Study tips
 

@@ -87,7 +87,8 @@ When the cut is in the **3rd octet** (/17 to /23), addresses ending in **.0 or .
 Host bits        = 32 − n
 Usable hosts     = 2^(32−n) − 2
 Total addresses  = 2^(32−n)
-Subnet bits      = n − class bits     (A = 8, B = 16, C = 24)
+Subnet bits      = n − starting prefix
+                   (the /n given in the question, e.g. /13; if none is given, the class bits: A = 8, B = 16, C = 24)
 Number of subnets = 2^(subnet bits)
 ```
 
