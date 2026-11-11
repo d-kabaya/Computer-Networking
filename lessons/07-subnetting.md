@@ -52,14 +52,23 @@ AND:   192.168.5.0    = 11000000.10101000.00000101.00000000
 ### Example A: cut in the 4th octet
 
 **107.73.14.224 / 255.255.255.192**
-1. The cut is at 192 (4th octet). 2. Block = 64. 3. 224 ÷ 64 = 3.5 → 3 × 64 = **192**.
-4. Subnet = **107.73.14.192**. 5. Broadcast = 256 − 1 = 255 → **107.73.14.255**. Hosts .193 to .254.
+
+- **Step 1:** the cutting number is **192**, in the 4th octet.
+- **Step 2:** block = 256 − 192 = **64**. The blocks are 0–63, 64–127, 128–191 and **192–255**.
+- **Step 3:** 224 ÷ 64 = 3.5 → 3 × 64 = **192**, the start of the block 224 is in.
+- **Step 4:** subnet = **107.73.14.192**.
+- **Step 5:** next start = 256, so the broadcast = 256 − 1 = 255 → **107.73.14.255**.
+- **Usable hosts:** 107.73.14.193 to 107.73.14.254.
 
 ### Example B: cut in the 3rd octet
 
 **52.92.172.187 / 255.255.224.0**
-1. The cut is at 224 (3rd octet). 2. Block = 32. 3. 172 ÷ 32 = 5.4 → 5 × 32 = **160**.
-4. Subnet = **52.92.160.0**. 5. Broadcast = 192 − 1 = 191 → **52.92.191.255**.
+
+- **Step 1:** the cutting number is **224**, in the 3rd octet.
+- **Step 2:** block = 256 − 224 = **32**.
+- **Step 3:** 172 ÷ 32 = 5.4 → 5 × 32 = **160**.
+- **Step 4:** subnet = **52.92.160.0** (everything after the cut becomes 0).
+- **Step 5:** next start = 192, so 192 − 1 = 191 → broadcast **52.92.191.255** (everything after the cut becomes 255).
 
 ## 4. Valid host, subnet address or broadcast?
 
