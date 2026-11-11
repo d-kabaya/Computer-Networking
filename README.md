@@ -24,6 +24,8 @@ Work through them in order. Each one builds on the last.
 | 12 | [Naming, DNS, ARP and MAC addresses](lessons/12-naming-dns-arp.md) | Host names, DNS hierarchy, ARP cache and queries, proxy ARP, RARP |
 | 13 | [Headers, layers revisited and IPv6](lessons/13-headers-layers-ipv6.md) | Why best effort, TCP header and window example, logical communication, fragmentation, IPv6 |
 | 14 | [Exam revision quiz 2](lessons/14-exam-revision-quiz-2.md) | 52 mixed exam-style questions from the course tests, plus new variants |
+| 15 | [Flow control, error control and ARQ](lessons/15-flow-error-control-arq.md) | ACK/NAK, T_F and a, Stop-and-Wait, sliding window, Go-back-n, Selective repeat |
+| 16 | [Stop-and-Wait performance](lessons/16-stop-and-wait-performance.md) | Efficiency formulas, optimal timeout, worked Problem Set Stop and Wait |
 
 ## Study tips
 
@@ -34,7 +36,7 @@ Work through them in order. Each one builds on the last.
 
 ## About
 
-Explanations are based on the course lecture slides ("2025-1 Basics", "2023-2 Internet" and "2023-3 Data Link Errors") and the course quiz and test solutions. Anything that goes beyond the slides is marked **Beyond the notes**.
+Explanations are based on the course lecture slides ("2025-1 Basics", "2023-2 Internet" and "2023-3 Data Link Errors" and "2023-4 DataLink Flow", slides 1–25) and the course quiz and test solutions. Anything that goes beyond the slides is marked **Beyond the notes**.
 
 ## Printable resources
 
@@ -47,3 +49,4 @@ Explanations are based on the course lecture slides ("2025-1 Basics", "2023-2 In
 | [Valid_Host_Q14.pdf](resources/Valid_Host_Q14.pdf) | How to tell a valid host from a subnet or broadcast address |
 | [Errors_1_Worked_Solutions.pdf](resources/Errors_1_Worked_Solutions.pdf) | Problem Set Errors 1: frame and packet error probability |
 | [Errors_2_Worked_Solutions.pdf](resources/Errors_2_Worked_Solutions.pdf) | Problem Set Errors 2: Hamming distance, CRC, bit stuffing, Hamming code |
+| [Stop_and_Wait_Worked_Solutions.pdf](resources/Stop_and_Wait_Worked_Solutions.pdf) | Problem Set Stop and Wait: efficiency and maximum BER |
