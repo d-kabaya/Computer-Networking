@@ -51,3 +51,4 @@ Explanations are based on the course lecture slides ("2025-1 Basics", "2023-2 In
 | [Errors_1_Worked_Solutions.pdf](resources/Errors_1_Worked_Solutions.pdf) | Problem Set Errors 1: frame and packet error probability |
 | [Errors_2_Worked_Solutions.pdf](resources/Errors_2_Worked_Solutions.pdf) | Problem Set Errors 2: Hamming distance, CRC, bit stuffing, Hamming code |
 | [Stop_and_Wait_Worked_Solutions.pdf](resources/Stop_and_Wait_Worked_Solutions.pdf) | Problem Set Stop and Wait: efficiency and maximum BER |
+| [Data_Link_Practice_Set.pdf](resources/Data_Link_Practice_Set.pdf) | 32 new data link and errors questions (frame errors, parity, Hamming, CRC, bit stuffing, Stop-and-Wait) with an answer key |
