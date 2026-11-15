@@ -43,7 +43,7 @@ Explanations are based on the course lecture slides ("2025-1 Basics", "2023-2 In
 
 | File | What it is |
 |---|---|
-| [Networking_Cheat_Sheet.pdf](resources/Networking_Cheat_Sheet.pdf) | 2-page cheat sheet: formulas, plus definitions and true/false facts |
+| [Networking_Cheat_Sheet.pdf](resources/Networking_Cheat_Sheet.pdf) | 4-page cheat sheet: formulas and definitions for Basics and Internet (pages 1–2) and Data Link (pages 3–4) |
 | [Networking_Practice_Set.pdf](resources/Networking_Practice_Set.pdf) | 18 mixed practice questions with an answer key |
 | [IP_Addressing_Practice.pdf](resources/IP_Addressing_Practice.pdf) | 25 addressing and subnetting questions with an answer key |
 | [Hops_and_Pipelining.pdf](resources/Hops_and_Pipelining.pdf) | Store-and-forward and pipelining, with diagrams |
