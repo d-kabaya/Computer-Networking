@@ -1,6 +1,6 @@
 # Lesson 16: Stop-and-Wait ARQ Performance
 
-[← Flow control and ARQ](15-flow-error-control-arq.md) · [Index](../README.md)
+[← Flow control and ARQ](15-flow-error-control-arq.md) · [Index](../README.md) · [Next: Quiz practice →](17-quiz-practice-data-link-flow.md)
 
 *Based on the "DataLink – Flow and Error Control" lecture deck, slides 18–25, and Problem Set Stop and Wait.*
 

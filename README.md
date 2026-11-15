@@ -26,6 +26,7 @@ Work through them in order. Each one builds on the last.
 | 14 | [Exam revision quiz 2](lessons/14-exam-revision-quiz-2.md) | 52 mixed exam-style questions from the course tests, plus new variants |
 | 15 | [Flow control, error control and ARQ](lessons/15-flow-error-control-arq.md) | ACK/NAK, T_F and a, Stop-and-Wait, sliding window, Go-back-n, Selective repeat |
 | 16 | [Stop-and-Wait performance](lessons/16-stop-and-wait-performance.md) | Efficiency formulas, optimal timeout, worked Problem Set Stop and Wait |
+| 17 | [Quiz practice: data link errors and flow control](lessons/17-quiz-practice-data-link-flow.md) | Hamming, CRC, path error, the size of the link a, and 24 true/false statements from the November quizzes |
 
 ## Study tips
 
