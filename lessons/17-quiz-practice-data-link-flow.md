@@ -1,6 +1,6 @@
 # Lesson 17: Quiz Practice – Data Link Errors and Flow Control
 
-[← Stop-and-Wait performance](16-stop-and-wait-performance.md) · [Index](../README.md)
+[← Stop-and-Wait performance](16-stop-and-wait-performance.md) · [Index](../README.md) · [Next: Go-back-N and Selective Repeat →](18-go-back-n-selective-repeat.md)
 
 *Questions from the course quizzes of 4, 5 and 8 November 2026, with full worked answers. They revise Lessons 9–11 and 15–16.*
 

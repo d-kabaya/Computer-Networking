@@ -1,6 +1,6 @@
 # Computer Networking: Simple Lessons with Quizzes
 
-Short, beginner-friendly lessons covering the **Basics**, **Internet** and **Data Link Errors** lecture decks. Each lesson explains one topic in plain language, with diagrams, worked examples and a quiz at the end.
+Short, beginner-friendly lessons covering the **Basics**, **Internet**, **Data Link Errors** and **Data Link Flow** lecture decks. Each lesson explains one topic in plain language, with diagrams, worked examples and a quiz at the end.
 
 > **How the quizzes work:** each answer is hidden inside a collapsible box. Try the question first, then click **"Show answer"** to check yourself.
 
@@ -27,6 +27,9 @@ Work through them in order. Each one builds on the last.
 | 15 | [Flow control, error control and ARQ](lessons/15-flow-error-control-arq.md) | ACK/NAK, T_F and a, Stop-and-Wait, sliding window, Go-back-n, Selective repeat |
 | 16 | [Stop-and-Wait performance](lessons/16-stop-and-wait-performance.md) | Efficiency formulas, optimal timeout, worked Problem Set Stop and Wait |
 | 17 | [Quiz practice: data link errors and flow control](lessons/17-quiz-practice-data-link-flow.md) | Hamming, CRC, path error, the size of the link a, and 24 true/false statements from the November quizzes |
+| 18 | [Go-back-N and Selective Repeat](lessons/18-go-back-n-selective-repeat.md) | In-order vs stored frames, NAK k, Go-back-N efficiency, comparing all three ARQ schemes |
+| 19 | [HDLC, LLC, Ethernet and Token Ring](lessons/19-hdlc-llc-multi-access.md) | HDLC frames and Go-back-7, LLC vs MAC, CSMA/CD, minimum frame size, Ethernet frame, token passing |
+| 20 | [Wi-Fi (802.11) and the data link summary](lessons/20-wifi-802-11.md) | BSS, SSID, AP, ESS, ACKing every frame, DCF/PCF/HCF, hidden and exposed nodes |
 
 ## Study tips
 
@@ -37,7 +40,7 @@ Work through them in order. Each one builds on the last.
 
 ## About
 
-Explanations are based on the course lecture slides ("2025-1 Basics", "2023-2 Internet" and "2023-3 Data Link Errors" and "2023-4 DataLink Flow", slides 1–25) and the course quiz and test solutions. Anything that goes beyond the slides is marked **Beyond the notes**.
+Explanations are based on the course lecture slides ("2025-1 Basics", "2023-2 Internet" and "2023-3 Data Link Errors", "2023-4 DataLink Flow", all slides) and the course quiz and test solutions. Anything that goes beyond the slides is marked **Beyond the notes**.
 
 ## Printable resources
 
