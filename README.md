@@ -1,6 +1,6 @@
 # Computer Networking: Simple Lessons with Quizzes
 
-Short, beginner-friendly lessons covering the **Basics**, **Internet**, **Data Link Errors** and **Data Link Flow** lecture decks. Each lesson explains one topic in plain language, with diagrams, worked examples and a quiz at the end.
+Short, beginner-friendly lessons covering the **Basics**, **Internet**, **Data Link Errors**, **Data Link Flow** and **Routing** lecture decks. Each lesson explains one topic in plain language, with diagrams, worked examples and a quiz at the end.
 
 > **How the quizzes work:** each answer is hidden inside a collapsible box. Try the question first, then click **"Show answer"** to check yourself.
 
@@ -30,6 +30,9 @@ Work through them in order. Each one builds on the last.
 | 18 | [Go-back-N and Selective Repeat](lessons/18-go-back-n-selective-repeat.md) | In-order vs stored frames, NAK k, Go-back-N efficiency, comparing all three ARQ schemes |
 | 19 | [HDLC, LLC, Ethernet and Token Ring](lessons/19-hdlc-llc-multi-access.md) | HDLC frames and Go-back-7, LLC vs MAC, CSMA/CD, minimum frame size, Ethernet frame, token passing |
 | 20 | [Wi-Fi (802.11) and the data link summary](lessons/20-wifi-802-11.md) | BSS, SSID, AP, ESS, ACKing every frame, DCF/PCF/HCF, hidden and exposed nodes |
+| 21 | [Routing basics and distance-vector](lessons/21-routing-distance-vector.md) | Broadcast vs point-to-point, routers, least-cost routing, the Bellman-Ford update rules, count-to-infinity |
+| 22 | [Link-state routing and Dijkstra](lessons/22-routing-link-state.md) | Link costs, link-state packets and flooding, the database, Dijkstra step by step, routing tables, OSPF |
+| 23 | [Bridges, repeaters and the module summary](lessons/23-bridges-repeaters.md) | Repeater vs bridge vs router, transparent (learning) bridges, FDB, spanning tree, source routing |
 
 ## Study tips
 
@@ -40,7 +43,7 @@ Work through them in order. Each one builds on the last.
 
 ## About
 
-Explanations are based on the course lecture slides ("2025-1 Basics", "2023-2 Internet" and "2023-3 Data Link Errors", "2023-4 DataLink Flow", all slides) and the course quiz and test solutions. Anything that goes beyond the slides is marked **Beyond the notes**.
+Explanations are based on the course lecture slides ("2025-1 Basics", "2023-2 Internet" and "2023-3 Data Link Errors", "2023-4 DataLink Flow" and "2024-5 Routing") and the course quiz and test solutions. Anything that goes beyond the slides is marked **Beyond the notes**.
 
 ## Printable resources
 
