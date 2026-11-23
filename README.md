@@ -43,7 +43,7 @@ Work through them in order. Each one builds on the last.
 
 ## About
 
-Explanations are based on the course lecture slides ("2025-1 Basics", "2023-2 Internet" and "2023-3 Data Link Errors", "2023-4 DataLink Flow" and "2024-5 Routing") and the course quiz and test solutions. Anything that goes beyond the slides is marked **Beyond the notes**.
+Explanations are based on the course lecture slides ("2025-1 Basics", "2023-2 Internet", "2023-3 Data Link Errors", "2023-4 DataLink Flow" and "2024-5 Routing") and the course quiz and test solutions. Anything that goes beyond the slides is marked **Beyond the notes**.
 
 ## Printable resources
 
